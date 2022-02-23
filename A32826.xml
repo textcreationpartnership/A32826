@@ -1,0 +1,602 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached on the fast-day, November the xiiith, 1678 being appointed for fasting and prayer / by Benjamin Camfield ...</title>
+            <author>Camfield, Benjamin, 1638-1693.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1678</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 77 KB of XML-encoded text transcribed from 28 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A32826</idno>
+            <idno type="STC">Wing C385</idno>
+            <idno type="STC">ESTC R1375</idno>
+            <idno type="EEBO-CITATION">12686976</idno>
+            <idno type="OCLC">ocm 12686976</idno>
+            <idno type="VID">65790</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A32826)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 65790)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 346:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached on the fast-day, November the xiiith, 1678 being appointed for fasting and prayer / by Benjamin Camfield ...</title>
+                  <author>Camfield, Benjamin, 1638-1693.</author>
+               </titleStmt>
+               <extent>[2], 53 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J. Macock for Henry Brome ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1678.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+                  <note>Marginal notes.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Fast-day sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-07</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-07</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:65790:1"/>
+            <p>A SERMON PREACHED ON THE Faſt-Day, <hi>NOVEMBER</hi> the xiii<hi rend="sup">th.</hi> 1678. Being appointed for <hi>Faſting</hi> and <hi>Prayer.</hi>
+            </p>
+            <p>BY <hi>BENJAMIN CAMFIELD,</hi> Rector of <hi>Aylſton</hi> near <hi>Leiceſter.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. Macock,</hi> for <hi>Henry Brome</hi> at the <hi>Gun,</hi> at the Weſt-end of S<hi rend="sup">t</hi> 
+               <hi>Pauls.</hi> MDCLXXVIII.</p>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:65790:2"/>
+            <p>Imprimatur,</p>
+            <closer>
+               <signed>
+                  <hi>Carolus Alſton,</hi> R. P. D. <hi>Hen.</hi> Epiſc. <hi>Lond.</hi> à Sacris Do<g ref="char:EOLhyphen"/>meſticis.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:65790:2" rendition="simple:additions"/>
+            <head>A SERMON ON PSALM xviii. <hi>v.</hi> 2. (but in the laſt Tranſlation <hi>v.</hi> 3.)</head>
+            <epigraph>
+               <q>I will call on the Lord, who is worthy to be praiſed: ſo ſhall I be ſafe from mine Enemies.</q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">I</seg>T is not long, ſince we were Aſ<g ref="char:EOLhyphen"/>ſembled, on the <hi>fifth</hi> of this Month, to Bleſs and Praiſe God for his wonderful Mercies to this King<g ref="char:EOLhyphen"/>dom in the ſeaſonable Diſcovery and Defeat<g ref="char:EOLhyphen"/>ing of our <hi>Romiſh</hi> Enemies moſt wicked and accurſed Powder-Plot; which had it taken effect, all had been Entomb'd on a ſuddain in one common Ruine.</p>
+            <p>And now, upon notice publickly given, That the ſame kind of Agents are at work a<g ref="char:EOLhyphen"/>gain,
+<pb n="2" facs="tcp:65790:3"/>in another way, to Deſtroy both His Sacred Majeſty, and with Him our Liberties and Religion; we are, by the warrant of Au<g ref="char:EOLhyphen"/>thority, met together here this day, to call upon that God, who alone is able to protect and ſave us, and whoſe undeſerved goodneſs we have had ſo much experience of hitherto, that he would be pleaſed graciouſly to conti<g ref="char:EOLhyphen"/>nue, yet to defend both our King and Coun<g ref="char:EOLhyphen"/>try, and bring to light, ſtill more and more, all ſecret machinations againſt his Majeſty and the whole Kingdom.</p>
+            <p>To which purpoſe therefore I could not think of any thing more pertinent and agree<g ref="char:EOLhyphen"/>able, both to Direct us in our preſent Duty, and Encourage us to the ſame, than the words I have read from the Royal <hi>Pſalmiſt,</hi>
+            </p>
+            <p>
+               <hi>I will call upon the Lord, who is worthy to be praiſed: ſo ſhall I be ſafe from mine Enemies.</hi>
+            </p>
+            <p>This Pſalm was a Publick Form of Devo<g ref="char:EOLhyphen"/>tion Compoſed, and appointed by King <hi>David</hi> for the ſolemn ſeaſons ſet apart to Comme<g ref="char:EOLhyphen"/>morate his manifold Deliverances and Victo<g ref="char:EOLhyphen"/>ries; <hi>for all the dayes, wherein God had delivered him;</hi> as the <hi>Chaldee</hi> Paraphraſt hath it. And it hath the Honour to be twice Regiſtred in Holy Writ, with very little variation in the words
+<pb n="3" facs="tcp:65790:3"/>of it. For you may read it in the 22<hi rend="sup">d</hi> Chap. of the 2<hi rend="sup">d</hi> Book of <hi>Samuel,</hi> as well as here in the Book of <hi>Pſalms.</hi>
+            </p>
+            <p>From whence we may plainly collect, That, however ſome of This Generation quarrel and except againſt ſet Forms of Divine Worſhip and Service, to caſt dirt upon the eſtabliſhed Religion, and make way for New-fangled Devices of their own, rather than Godly Edifying in Love and Unity; yet it was not ſo in the Church of God from the Beginning; but both a publick Form was wont to be pre<g ref="char:EOLhyphen"/>ſcribed, and upon like occaſions one and the ſame Form was without ſcruple made uſe of. And that by the Counſel and Coun<g ref="char:EOLhyphen"/>tenance of no meaner a Perſon than King <hi>David</hi> himſelf, who is recommended to us as an eminent Servant of God, both in his private and Regal Capacity,
+<note place="margin">Acts 13.22.</note> a man <hi>after Gods own heart,</hi> as he himſelf hath teſtified of him.</p>
+            <p>So much we have ſufficiently intimated in the very Title of this Pſalm, which was inſcrib'd to the chief Muſician or Prefect of Muſick, the Maſter of the Choire, to be ſung upon publick Solemnities. —<hi>To the chief Mu<g ref="char:EOLhyphen"/>ſician. A Pſalm of</hi> David <hi>the ſervant of the Lord,
+<pb n="4" facs="tcp:65790:4"/>who ſpake unto the Lord the words of this Song, in the Day that the Lord deliver'd him from the hand of all his Enemies, and from the hand of</hi> Saul. <hi>And he ſaid,</hi>
+               <note place="margin">See Dr. <hi>H.</hi> in loc.</note> Viz. as followeth; that is, A Publick Form of Worſhip, or Religious Acknowledg<g ref="char:EOLhyphen"/>ment indited by <hi>David</hi> that eminent Servant of the Lord, in Commemoration of thoſe many Preſervations and Victories which God had vouchſafed him, and his now quiet ſet<g ref="char:EOLhyphen"/>tlement in the Kingdom of <hi>Iſrael</hi> and <hi>Judah,</hi> by the interpoſure of the Divine Providence in ſubduing the <hi>Philiſtines, Syrians, Moabites</hi> and <hi>Ammonites,</hi> that roſe up againſt him; in quiet<g ref="char:EOLhyphen"/>ing the Rebellion of <hi>Abſalom,</hi> his ſon <hi>Abſalom,</hi> (ſoon after which it is recorded, 2 <hi>Sam.</hi> 22.) but eſpecially in reſcuing him out of the ma<g ref="char:EOLhyphen"/>licious bloody hands of <hi>Saul.</hi> This he com<g ref="char:EOLhyphen"/>poſed, and committed to the chief Muſician, as a ſuitable ſervice for thoſe ſolemn Dayes, wherein there ſhould be occaſion to comme<g ref="char:EOLhyphen"/>morate his Deliverances and Victories. And to that purpoſe it continues regiſtred in the Book of <hi>Pſalms,</hi> among many other, as a Pattern and Example unto all Poſterities; and a Juſtification, as I ſaid, beyond all con<g ref="char:EOLhyphen"/>tradiction, both of the lawfulneſs and expe<g ref="char:EOLhyphen"/>diencie of Publick Forms of Devotion, and
+<pb n="5" facs="tcp:65790:4"/>the uſe or Repetition of the ſame Forms upon like occaſion.</p>
+            <p>I ſhall not now go about to unravel the Contexture of the whole Pſalm, becauſe I would not divert your attention from that plenty of good and proper Meditations, which the Text alone ſuggeſts unto us. Wherein we have theſe two principal parts:</p>
+            <p n="1">1. <hi>David's holy Reſolution</hi> or Practice: <hi>I will call on the Lord, who is worthy to be praiſed.</hi> And,</p>
+            <p n="2">2. <hi>The Motive</hi> he had thereunto from the aſſured <hi>ſucceſs</hi> of it; <hi>So ſhall I be (ſaved</hi> or) <hi>ſafe from mine enemies.</hi>
+            </p>
+            <p>Of which therefore now by God's help, I ſhall treat in order, as they lie.</p>
+            <p>And Firſt of the Pſalmiſt's holy Reſolution or Practice; <hi>I will call on the Lord, who is worthy to be praiſed.</hi> Wherein we may conſider, yet more diſtinctly, theſe three Particulars.</p>
+            <p n="1">1. The <hi>Perſon</hi> whoſe Example we have before our eyes, together with the Circum<g ref="char:EOLhyphen"/>ſtances of his <hi>Condition, [I]</hi> King <hi>David,</hi> the Servant of the Lord, preſerved and deliver'd by him from many potent Enemies already, and yet not without the Fear and proſpect of others ſucceeding afreſh, and growing up in the room of them.</p>
+            <p n="2">
+               <pb n="6" facs="tcp:65790:5"/> 2. The <hi>Act</hi> or <hi>Practice it ſelf</hi> reſolved upon, <hi>Calling upon the Lord;</hi> which, as I ſhall take occaſion to ſhew you, was all along his moſt Religious Cuſtom, as well as Reſolution in like Caſes for the Future. And then,</p>
+            <p n="3">3. The ſpecial Character here annexed un<g ref="char:EOLhyphen"/>to the <hi>Object</hi> of his Invocation, Worſhip and Devotion; <hi>The Lord who is worthy to be praiſed. I will call on the Lord, who is worthy to be praiſed.</hi>
+            </p>
+            <p>Firſt, The Perſon here ſpoken of; the <hi>[I]</hi> in the Text. That is <hi>David,</hi> a pious and Re<g ref="char:EOLhyphen"/>ligious King, ſtyled in the Title of the Pſalm, <hi>The Servant of the Lord,</hi> as I told you.</p>
+            <p>Religion, we ſee, is not a vile or mean Performance; is not a thing below the High<g ref="char:EOLhyphen"/>eſt and moſt eminent Monarchs of the World; no diſparagement at all unto their Greatneſs, but that which is indeed the chiefeſt Orna<g ref="char:EOLhyphen"/>ment in their Diadem and Crown of Glory. They have the ſame Eſſential Dependence upon God with other men, and He the ſame Right and Title of Soveraignty and Domi<g ref="char:EOLhyphen"/>nion over Them, being <hi>King of Kings, and Lord of Lords.</hi> Nay, They have an Obliga<g ref="char:EOLhyphen"/>tion above others to ſerve and Honour God Almighty; not only as his Reaſonable Crea<g ref="char:EOLhyphen"/>tures
+<pb n="7" facs="tcp:65790:5"/>and Dependents like unto others, but as his peculiar Miniſters and Servants, in their Sacred Office as Kings, exalted and upheld by him in that their Dignity.</p>
+            <p>Again, Their Neceſſity as well as place engageth them hereunto: for they are ſur<g ref="char:EOLhyphen"/>rounded with thoſe Dangers and Troubles, which none but God alone, the Supreme Po<g ref="char:EOLhyphen"/>tentate, can preſerve or deliver them in and from. No ſooner have they eſcaped one Plot and Contrivance of miſchief, but another Snare is laying for them. The <hi>Hydra</hi> of Treaſon and Rebellion hath many Heads; and when one is cut off, another perks up in its ſtead.</p>
+            <p>Such was <hi>David</hi>'s Condition. And we need not to look further than <hi>This Pſalm</hi> for an am<g ref="char:EOLhyphen"/>ple proof of it. Here we read of the <hi>ſorrows of Death and Hell compaſſing him:</hi>
+               <note place="margin">Verſes 4, 5.</note> The <hi>ſnares of Death preventing him:</hi> The <hi>Floods of ungodly men making him afraid.</hi> The <hi>Sons of Belial,</hi> men impatient of the Yoke of Government and Reſtraint, coming like a mighty Torrent upon him:
+<note place="margin">Verſe 16.</note> Many <hi>waters threatning to over<g ref="char:EOLhyphen"/>flow and drown him;</hi> Blood-thirſty, powerful and malicious Enemies, ſuch as <hi>hated</hi> him,
+<note place="margin">Verſe 17.</note> and were <hi>too ſtrong</hi> for him,
+<note place="margin">Verſe 39.</note> 
+               <hi>riſing up againſt</hi>
+               <pb n="8" facs="tcp:65790:6"/>him. And thoſe not only of Forraign Nati<g ref="char:EOLhyphen"/>ons but amongſt his own People.
+<note place="margin">Verſe 43.</note> 
+               <hi>The ſtrivings of the people;</hi> nor only making open Inſurrecti<g ref="char:EOLhyphen"/>ons, but endeavouring private Aſſaſſinations by <hi>men of violence;</hi>
+               <note place="margin">Verſe 48.</note> and thoſe too ſecret and un<g ref="char:EOLhyphen"/>known; Diſſembling and Falſe-hearted Sub<g ref="char:EOLhyphen"/>jects,
+<note place="margin">Verſe 44.</note> ſuch as <hi>yielded feigned Obedience,</hi> ſuch as lied unto him in all their fair profeſſions, and <hi>diſſembled with him,</hi> as the old Tranſlation hath it.
+<note place="margin">Verſe 6.</note> No wonder therefore that we find him <hi>in his Diſtreſſe,</hi> and in a <hi>Day of Calamity;</hi> and as it were in <hi>Priſon and Confinement,</hi>
+               <note place="margin">Verſe 18, 19.</note> in great ſtraits; ſometimes in a ſtate of War, and at other times in great Perils.</p>
+            <p>Such is the condition of all Kings, eſpecial<g ref="char:EOLhyphen"/>ly of Pious and Religious Kings. For the King is the head of Order, and the very life and ſoul of Laws, both Civil and Sacred. So many Enemies therefore as there are abroad, to a State or Kingdom, their level is chiefly, neither at ſmall or great, but at the Head and Soul of all the reſt. The Devil and his Agents are all Adverſaries to Order, and Quiet, and Peace, with Piety and Virtue; and therefore muſt neceſſarily impugn and ſtrike at the grand Conſervator of all theſe. And then, in his own Dominions, if we reckon up, how many
+<pb n="9" facs="tcp:65790:6"/>there alwayes be, that are in ill Circumſtances themſelves, and have their hopes only in a Change, in fiſhing, as we ſay, in troubled Waters; in diſturbing all, that they may ſcramble for ſomewhat; How many Ambiti<g ref="char:EOLhyphen"/>ous of Rule and Power themſelves, that would fain be uppermoſt: How many envious at all above them, who therefore are ready to pull them down or undermine them: How many thirſting for Liberty, unbounded Liberty, to do whatſoever is good in their own Eyes: How many croſs'd in their undue Deſires and Luſts, by the ſeverity of good and wholeſome Laws: How many whoſe Faith and Allegiance is eaſily corrupted by the popular inſinuations and pretences of wheedling Demagogues, or to be bought and ſold with Bribes and Penſi<g ref="char:EOLhyphen"/>ons: How very few of Courage and Ho<g ref="char:EOLhyphen"/>neſty enough to ſtick by a Prince in his low Condition: How many Powers, and Policies, and Devices he hath continually to watch over, and to ſtruggle with: How many he muſt of neceſſity truſt and imploy, whom he hath but little or ſlender aſſurance of: If we conſider, I ſay, but theſe, and the like obvious Circumſtances, we cannot but ſee the manifold Troubles, and Miſeries, and
+<pb n="10" facs="tcp:65790:7"/>Calamities, that every Prince, every good and Religious Prince eſpecially, is beſet withal. As <hi>David,</hi> we read, was.</p>
+            <p>But the greateſt comfort is, He hath a Re<g ref="char:EOLhyphen"/>fuge and Sanctuary near at hand, notwith<g ref="char:EOLhyphen"/>ſtanding all this, to betake himſelf unto; namely that of the Text. <hi>I will call upon the Lord.</hi> This we find upon all occaſions was our Royal <hi>Pſalmiſts</hi> ſtay and ſecurity. When He knew not what to do, nor whither to be<g ref="char:EOLhyphen"/>take himſelf, his Eyes were ſtill unto God. <hi>God,</hi>
+               <note place="margin">Pſal. 46.</note> ſaith he, <hi>is our refuge and ſtrength: a very preſent help in Trouble. Therefore will we not fear,</hi> &amp;c.</p>
+            <q>
+               <l>Si fractus illabatur orbis,</l>
+               <l>Impavidum ferient ruinae.</l>
+            </q>
+            <p>Thus at <hi>Ziklag;</hi>
+               <note place="margin">1 Sam. 30.6.</note> 
+               <hi>David,</hi> ſaith the text, <hi>was greatly diſtreſſed: for the people ſpake of ſtoning of him, becauſe the ſoul of all the people was grieved, every man for his Sons, and for his Daughters:</hi> (and when any thing goes amiſs, or ſucceeds ill in Government, the blame and complaints uſual<g ref="char:EOLhyphen"/>ly fix and center on the chief Governour) <hi>but David encouraged himſelf in the Lord his God.</hi> He becalmed himſelf, as we read elſewhere, with ſuch like expoſtulations as Theſe.
+<note place="margin">Pſal. 42.</note> 
+               <hi>Why art
+<pb n="11" facs="tcp:65790:7"/>thou caſt down, O my ſoul, and why art thou diſquieted within me? Hope thou in God,</hi>
+               <note place="margin">Pſal. 43.</note> 
+               <hi>for I ſhall yet praiſe him, who is the Health of my countenance and my God.</hi> Obſerve therefore, by how many different Names and Attributes of ſecurity he calls God in the Verſe before our Text, on purpoſe, as it were, to declare, That he was <hi>All in All</hi> in his account: <hi>My Strength,</hi> ſaith he, <hi>and my Rock,</hi>
+               <note place="margin">Pſal. 18.1.</note> 
+               <hi>and my For<g ref="char:EOLhyphen"/>treſs, and my Deliverer: my Buckler, and the Horn of my Salvation,</hi> (that is, according to the <hi>He<g ref="char:EOLhyphen"/>brew</hi> Idiom, wherein Horn is uſed for <hi>Power</hi> and <hi>Plenty,</hi> my moſt Powerful and All-ſuffici<g ref="char:EOLhyphen"/>ent Saviour) <hi>and my High-Tower.</hi> In weakneſs, my Strength; againſt the Storm and Billows of Adverſity, and that Ocean of Calamity, which beats at any time upon me, my Rock impregnable; againſt all manner of Violence or Aſſaults, my Fortreſs or Bul-work, my Shield and Buckler invulnerable; whatever Hoſts or Armies invade me, my High-Tower and Caſtle; at all Times and in all Caſes a moſt mighty and abundant Saviour and Deliverer. They are excellent words of the Prophet <hi>Habakkuk,</hi>
+               <note place="margin">Hab. 3.17, 18, 19.</note> which I the rather men<g ref="char:EOLhyphen"/>tion, becauſe the later part of them is taken out of <hi>this Pſalm.</hi>
+               <note place="margin">Pſal. 18.32, 33.</note> 
+               <hi>Although the Fig-tree ſhall not
+<pb n="12" facs="tcp:65790:8"/>bloſſom, neither ſhall Fruit be in the Vines; the labour of the Olive ſhall fail, and the Fields ſhall yield no meat; the Flock ſhall be cut off from the Fold, and there ſhall be no Herd in the Stalls:</hi> (that is, all viſible help and relief ſhall fail) <hi>Yet will I rejoyce in the Lord: I will joy in the God of my Salvation. The Lord God is my ſtrength, and he will make my feet like Hinds feet, and He will make me to walk on my High-places</hi>— There can be no poſſible want of <hi>proviſions</hi> to this High-Tower or Garriſon.</p>
+            <p>We ſee, by the way, what an utter Enemy the profeſs'd Atheiſt is to all publick Govern<g ref="char:EOLhyphen"/>ments, and the beſt ſecurity of Kings and Princes
+<note n="†" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>—<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. D. Chryſoſt. in Pſal. 143.2. &amp; 10.</note>, who by denying God and Provi<g ref="char:EOLhyphen"/>dence takes away this moſt Comfortable Re<g ref="char:EOLhyphen"/>fuge and Sanctuary, which amidſt all Perils and Dangers they are to betake themſelves un<g ref="char:EOLhyphen"/>to. It is the Character of ſuch profane ones, <hi>That they call not upon God themſelves:</hi>
+               <note place="margin">Pſal. 14.</note> and that is not all the miſchief of it, but thy ſeek to deprive others alſo of this bleſſed Privi<g ref="char:EOLhyphen"/>ledge;
+<note place="margin">Pſal. 53.</note> whileſt they ſay, either, <hi>There is no God,</hi> or that <hi>He ſees not, hears not, regards not his Supplicants.</hi> It is therefore the undoubt<g ref="char:EOLhyphen"/>ed concernment of every State to ſuppreſs and baniſh Atheiſm, with all the Fautors of it.</p>
+            <pb n="13" facs="tcp:65790:8"/>
+            <p> But hitherto of the firſt particular the Per<g ref="char:EOLhyphen"/>ſon whoſe good Example we have here be<g ref="char:EOLhyphen"/>fore our eyes, That Religious and pious King <hi>David;</hi> who was always ſenſible of his Obli<g ref="char:EOLhyphen"/>gations to God, and how impoſſible it was for himſelf or any other Prince, to be ſafe and ſe<g ref="char:EOLhyphen"/>cure without the aids of Heaven.</p>
+            <p>In the Second place we are to conſider fur<g ref="char:EOLhyphen"/>ther of him in Conjunction with the Holy Practice here reſolv'd upon. <hi>I will call on the Lord.</hi>
+            </p>
+            <p>
+               <hi>Calling upon God</hi> is a Phraſe ſometimes put in Scripture for all Religion, as it is uſual there for ſome ſignal act to ſtand for and exprereſs all the reſt of the kind. But here we are to underſtand it in its moſt proper importance, <hi>viz.</hi> an Invocation by Prayer and Supplicati<g ref="char:EOLhyphen"/>on unto God, whereby he betakes himſelf to the Divine Protection, begging Safety and Deliverance from him. And the words are rendred by Interpreters in <hi>ſeveral Tenſes.</hi>
+            </p>
+            <p>As to the <hi>Time paſt, Invocabam;</hi>
+               <note place="margin">Piſcator.</note> 
+               <hi>I did call on the Lord, ſo was I ſaved from mine Enemies.</hi> And Thus we have it afterwards, <hi>Verſ.</hi> 6. <hi>In my Diſtreſs I called upon the Lord, and cryed unto my God; He heard my voice out of his holy Temple, and my cry came before him, even into his ears.</hi>
+               <pb n="14" facs="tcp:65790:9"/>The effects of which audience are magnifi<g ref="char:EOLhyphen"/>cently ſet forth in the following Verſes.
+<note place="margin">See Verſe 7. to verſ. 16. &amp; Dr. <hi>H.</hi> Par.</note> How he expreſs'd the Wrath of an All-powerful God, able to make the World to Tremble, nay to burn and conſume it, interpoſing his hand as ſignally, as if he had deſcended in a black thick Cloud with a mighty wind, and the appearance of Angels in ſhining Gar<g ref="char:EOLhyphen"/>ments, with tempeſtuous ſhowers of Hail and Fire; with Thundrings and Lightnings, as with Arrows and fiery Darts, and finally with the ſame Notoriety of his Preſence, as when the waters of the Sea were driven back by a ſtrong Eaſt-wind, and the Deep turned into dry ground for the paſſage of his People <hi>Iſrael.</hi>
+            </p>
+            <p>Others read it in the <hi>preſent Tenſe:</hi>
+               <note place="margin">
+                  <hi>Jun.</hi> &amp; <hi>Trem. Vatabl.</hi>
+               </note> 
+               <hi>Invoco,</hi> or <hi>Invocare ſoleo:</hi> I do call upon the Lord; This is my conſtant Practice and Cuſtom. <hi>I call upon the Lord—ſo am I ſafe from mine Ene<g ref="char:EOLhyphen"/>mies.</hi> See the 142<hi rend="sup">d</hi> Pſalm. <hi>The Prayer of Da<g ref="char:EOLhyphen"/>vid when he was in the Cave.</hi>
+               <q>When he poured out his Complaint before God, and ſhewed him his trouble, How a Snare was privily laid for him in the way wherein he walked, and he had none that he could truſt to for Refuge, none that regarded or cared for him;
+<pb n="15" facs="tcp:65790:9"/>His Soul in Priſon, and his Perſecutors about him, ſtronger than he.</q> But he betakes him<g ref="char:EOLhyphen"/>ſelf to This his wonted Practice, <hi>verſ.</hi> 5, &amp;c. <hi>I cried unto Thee, O Lord; I ſaid, Thou art my portion in the land of the living. Attend unto my cry, for I am brought very low; deliver me from my Perſecutors, for they are ſtronger than I; bring my Soul out of Priſon, that I may praiſe thy Name.</hi>
+            </p>
+            <p>Others again read it, as we do,
+<note place="margin">LXXII. <hi>Vulg. Lat.</hi>
+               </note> both in our Old and New Tranſlation, in the <hi>Future</hi> Tenſe. <hi>Invocabo, I will call on the Lord.</hi> And thus, what was his Religious Practice and Cuſtom in times paſt and at preſent, becomes alſo his pious and holy Reſolution for the Time to come; as we find it frequently elſe<g ref="char:EOLhyphen"/>where repeated by him. <hi>Pſal.</hi> 55. Having ſpoken of the Helliſh Plots of ſome, that had been his Intimates and Familiars, from which he hardly ſaw any humane poſſibility of eſca<g ref="char:EOLhyphen"/>ping; <hi>I mourn in my complaint,</hi> ſaith he, <hi>becauſe of the voice of the enemy, becauſe of the oppreſſion of the wicked.</hi>
+               <q>The enemy crieth ſo, and the ungodly cometh on ſo faſt; for they are minded to do me ſome miſchief: ſo malici<g ref="char:EOLhyphen"/>ouſly are they ſet againſt me. My heart is diſquieted within me, and the Fear of Death
+<pb n="16" facs="tcp:65790:10"/>is fallen upon me. Fearfulneſs and trembling are come upon me, and horror hath over<g ref="char:EOLhyphen"/>whelmed me;</q> and I ſaid, <hi>O that I had wings like a Dove! for then would I flee away, and be at reſt: Lo, then would I wander far off, and re<g ref="char:EOLhyphen"/>main in the Wilderneſs; I would haſten my eſcape from the Fiery ſtorm and Tempeſt. Deſtroy, O Lord, and divide their tongues, for I have ſeen vio<g ref="char:EOLhyphen"/>lence and ſtrife in the City. Day and Night they go about it, upon the walls thereof; miſchief alſo and ſorrow are in the midſt of it. Wickedneſs is in the midſt thereof; deceit and guile depart not from her ſtreets. For it was not an Enemy that reproach<g ref="char:EOLhyphen"/>ed me;</hi> (an open profeſſed, and known Ene<g ref="char:EOLhyphen"/>my) <hi>then I could have born it; neither was it he that hated me, that did magnifie himſelf againſt me; then I would have hid my ſelf from him. But it was Thou, a man mine Equal,</hi> (a <hi>Man according to my rank,</hi> as the Margin reads it) <hi>my Guide and mine Acquaintance: We took ſweet Counſel together, and walked to the Houſe of God in company.</hi> You ſee, what a copious and pathetical deſcription he gives of his imminent Danger and Trou<g ref="char:EOLhyphen"/>bles. See now his Reſolution under all This; the Sanctuary he betakes himſelf unto, <hi>verſ.</hi> 16, <hi>&amp;c. As for me, I will call upon God, and the Lord ſhall ſave me. Evening and Morning and at
+<pb n="17" facs="tcp:65790:10"/>Noon will I pray and cry aloud, and he ſhall hear my voice. He hath deliver'd my Soul in peace from the Battail that was againſt me; for there were many with me:</hi> [He reckon'd upon God alone as a mighty and ſtrong Hoſt, and from his former experience he concludes for the Future] <hi>Yea even God, that endureth for ever</hi> (the ſame God ſtill) <hi>ſhall hear me, and bring them down, even to the Pit of Deſtruction.</hi> Again, <hi>Pſal.</hi> 86. <hi>Bow down thine ear, O Lord,</hi> (ſaith he) <hi>hear me, for I am poor and needy. Preſerve my Soul, for I am Holy,</hi> (thine <hi>Anointed,</hi> one whom <hi>thou fa<g ref="char:EOLhyphen"/>voureſt,</hi> as the Margin hath it) <hi>O thou my God, ſave thy ſervant that truſteth in thee. Be merciful unto me, O Lord, for I cry unto thee daily</hi> (or, <hi>all the day); Rejoice the Soul of thy ſervant; for un<g ref="char:EOLhyphen"/>to thee, O Lord, do I lift up my ſoul.</hi> This, we ſee, was his devout Practice. Then, for his Reſolution ſo to continue, <hi>verſ.</hi> 7. <hi>In the Day of my Trouble I will call upon thee, for thou wilt anſwer me.</hi> I will turn you but to one place more, <hi>Pſal.</hi> 116. which begins with an hearty Profeſſion of his Affections to God from the ſenſe of his Mercies and Deliverances; (as this 18<hi rend="sup">th</hi> 
+               <hi>Pſalm</hi> doth,) <hi>I love the Lord, becauſe he hath heard my voice and my ſupplication; be<g ref="char:EOLhyphen"/>cauſe he hath inclined his ear unto me,</hi> (which ſuppo<g ref="char:EOLhyphen"/>ſeth
+<pb n="18" facs="tcp:65790:11"/>his former practice of This Religious duty) <hi>Therefore will I call upon him as long as I live, (in my days,</hi> ſaith the Margin, <hi>viz.</hi> all the days of my trouble, diſtreſs, and calamity more eſpecially.) And ſo he goes on to fortifie his Reſolution by a further Commemoration of his former practice This way, and the bleſſed ſucceſs of it. <hi>The ſorrows of Death compaſſed me, and the pains of Hell gat hold upon me,</hi> (as we have it alſo in the 18<hi rend="sup">th</hi> 
+               <hi>Pſalm,) I found trouble and ſorrow; then called I upon the Name of the Lord; O Lord, I beſeech thee, deliver my Soul. Gracious is the Lord and righteous; yea our God is merciful. The Lord preſerveth the ſimple,</hi> (the plain, honeſt, upright man, who reli<g ref="char:EOLhyphen"/>eth on him, when he is void of counſel to help himſelf) <hi>I was brought low, and He help<g ref="char:EOLhyphen"/>ed me.</hi>
+            </p>
+            <p>There is nothing certainly more proper in a Time of Affliction, Calamity and Trouble, than this Religious practice of <hi>Calling upon the Lord.</hi>
+               <note place="margin">Jam. 5.13.</note> 
+               <hi>Is any among you afflicted?</hi> ſaith St. <hi>James, let him pray.</hi>
+               <note place="margin">Pſal. 50.15.</note> 
+               <hi>Call upon me</hi> (ſaith God himſelf) <hi>in the day of trouble; I will deliver thee, and thou ſhalt glorifie me.</hi> Such therefore was the meſ<g ref="char:EOLhyphen"/>ſage of King <hi>Hezekiah</hi> unto <hi>Iſaiah</hi> the Prophet.
+<note place="margin">2 King. 19.3, 4.</note> 
+               <hi>This is a day of trouble and rebuke and blaſphemy,
+<pb n="19" facs="tcp:65790:11"/>wherefore lift up thy Prayer for the Remnant that is left.</hi>
+            </p>
+            <p>Even Nature at ſuch a time of extremity prompts us to this piece of Religion. The Atheiſtical Poet acknowledgeth it to be the common Practice of Mankind;
+<q>
+                  <l>—Multó<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> in rebus acerbis</l>
+                  <l>Acriùs advertunt animos ad Relligionem.
+<note place="margin">
+                        <hi>Lucret.</hi> l. 3.</note>
+                  </l>
+               </q> Men in their Pains and Adverſities are very apt to cry out, <hi>Lord help us!</hi> This the Pro<g ref="char:EOLhyphen"/>phet notes in a people that were otherwiſe forgetful of God. <hi>Lord,</hi>
+               <note place="margin">Iſa. 26.16, 17.</note> 
+               <hi>in trouble have they vi<g ref="char:EOLhyphen"/>ſited thee; they have poured out a Prayer when thy Chaſtening was upon them. Like as a woman with Child, that draweth near the time of her delive<g ref="char:EOLhyphen"/>rance, and cryeth out in her pangs, ſo have we been in thy ſight, O Lord.</hi> You have many Inſtances together in <hi>Pſal.</hi> 107. how <hi>men cry unto God in their troubles, and he delivereth and ſaveth them out of their Diſtreſſes;</hi> particularly of them <hi>who go down to the Sea in Ships;</hi> when the ſtormie wind ariſeth, and they are at their wits ends, <hi>Verſ.</hi> 27, 28. <hi>Then they cry unto the Lord in their trouble.</hi> Hence we have a common Proverb, <hi>Qui neſcit orare, diſcat navigare:</hi> He that knows not to Pray, let him go to Sea; where the
+<pb n="20" facs="tcp:65790:12"/>ſight of ſo many Dangers, ready to ſwallow up and devour him, is ſuppoſed to be ſuffici<g ref="char:EOLhyphen"/>ent to teach him This Leſſon. Unleſs he have contracted an unnatural Hardneſs, and ſenſleſneſs both of God and Death, the Fears of Shipwrack will awaken him to Prayer. The Mariners,
+<note place="margin">Jonah 1.5.</note> we read, in the ſtorm, <hi>cryed every man to his God,</hi> and the Ship-maſter comes to <hi>Jonah,</hi> and ſaith unto him,
+<note place="margin">Verſe 6.</note> 
+               <hi>What meaneſt thou, O ſleeper? ariſe, call upon thy God, if ſo be that God will think upon us, that we periſh not.</hi> And we find them all afterwards, importunately at their Prayers. <hi>They cryed unto the Lord and ſaid,</hi>
+               <note place="margin">Verſe 14.</note> 
+               <hi>we beſeech thee, O Lord, we beſeech thee.</hi> The Diſciples in a Tempeſt awaken our Bleſſed Saviour, ſaying, <hi>Lord,</hi>
+               <note place="margin">Matth. 8.</note> 
+               <hi>ſave us, we periſh.</hi>
+            </p>
+            <p>This, I ſay, is the natural and conſtant Practice of All that have any regard to them<g ref="char:EOLhyphen"/>ſelves or ſenſe of a Deity, that have not ſinn'd themſelves into a blockiſh ſtupidity, paſt feel<g ref="char:EOLhyphen"/>ing, in the time of imminent Troubles and Dangers and Calamities, to call upon God. And this is urged by <hi>Salvian</hi> as a ſtrong Con<g ref="char:EOLhyphen"/>viction againſt the Denyers of God Almighty's Providence.
+<note place="margin">
+                  <hi>Lib.</hi> 1. p. 17.</note> [<hi>Cur ad coelum quotidiè manus tendi<g ref="char:EOLhyphen"/>mus?</hi> &amp;c.]
+<q>Why ſtretch we our hands daily towards Heaven? Why ſeek we the
+<pb n="21" facs="tcp:65790:12"/>Mercy of God by our repeated Prayers? Why do we run to Temples and Churches? Why do we ſupplicate on our knees before Altars?</q> 
+               <hi>[Nulla enim nobis eſt ratio precandi, ſi ſpes tollitur impetrandi.]</hi>
+               <q>We have no reaſon at all to pray, if we have no hope left us of ſpeeding by it.</q> And the Heathen <hi>Seneca,</hi> before him, managed this argument againſt the Epicureans, who allow'd of ſuch kind of inſignificant Deities, who neither heard nor regarded the Prayers of their Supplicants. <hi>[Nec in hunc furorem omnes mortales conſenſiſſent alloquendi ſurda numina &amp; inefficaces Deos.]</hi>
+               <note place="margin">
+                  <hi>De Benef.</hi> l. 4. c. 4.</note>
+               <q>It is no ways likely or credible, ſaith he, that all mortals ſhould conſent together in ſuch a point of Madneſs as this is, continually to call upon Deaf Gods, and ſuch as can Do nothing for them.</q>
+            </p>
+            <p>Nevertheleſs, it muſt be granted, that all who call upon God, do not ſpeed in their Requeſts; becauſe, as St. <hi>James</hi> hath it,
+<note place="margin">Jam. 4.3.</note> 
+               <hi>they ask amiſs. Ye ask and receive not,</hi> ſaith he, <hi>be<g ref="char:EOLhyphen"/>cauſe ye ask amiſs.</hi> And therefore it will be requiſite, before I leave this ſubject, to ſhew you briefly what are the <hi>qualifications</hi> of ſuch a Calling upon God, as we may be aſſured of the Good effects of.</p>
+            <pb n="22" facs="tcp:65790:13"/>
+            <p> Theſe Qualifications now are reducible unto Three heads.</p>
+            <p>The Firſt, concerning the Object of our Invocation, whom we are to call upon. That muſt be the <hi>Lord,</hi> and the Lord <hi>only.</hi>
+            </p>
+            <p>Secondly, As to the Perſon Praying; He muſt be <hi>Righteous,</hi> at leaſt in the Evangelical ſence, that is, a <hi>True Penitent.</hi>
+            </p>
+            <p>Thirdly, As to the Prayer or Invocation it ſelf, That muſt be with <hi>Humility and Re<g ref="char:EOLhyphen"/>verence;</hi> with <hi>Faith;</hi> with <hi>Sincerity;</hi> with <hi>For<g ref="char:EOLhyphen"/>vency;</hi> with <hi>Charity;</hi> with <hi>Perſeverance;</hi> with a due <hi>Submiſſion</hi> to the Divine Will; tendred up to God in the <hi>Name of Chriſt;</hi> and attend<g ref="char:EOLhyphen"/>ed with <hi>Endeavours agreeable</hi> to our Prayers.</p>
+            <p>I ſhall little more than touch upon the par<g ref="char:EOLhyphen"/>ticulars, they are ſo many; (and I would not prevent my ſelf in what elſe remains:) But yet it is plainly neceſſary, that I ſay ſome<g ref="char:EOLhyphen"/>what of them, becauſe without attendance unto <hi>Theſe things,</hi> our Prayers will certainly prove ineffectual, and vain Oblations. And as good, you know, not at all, as to no pur<g ref="char:EOLhyphen"/>poſe.</p>
+            <p>Firſt then, The Object of our Invocation muſt be the <hi>Lord Jehovah,</hi> the True and Living God, and none beſides him. <hi>I will call
+<pb n="23" facs="tcp:65790:13"/>on the Lord.</hi> Prayer is a piece of Divine wor<g ref="char:EOLhyphen"/>ſhip peculiar unto God, and which we cannot without peril of Idolatry give unto any other. And therefore it is one of the Arguments, uſed by the Antient Fathers as well as Modern Di<g ref="char:EOLhyphen"/>vines, to prove the <hi>Deity of our Bleſſed Saviour;</hi> becauſe we are taught to <hi>Call upon his Name.</hi> So we read of St. <hi>Stephen,</hi>
+               <note place="margin">Act. 5.59.</note> 
+               <hi>They ſtoned Stephen calling upon God, and ſaying, Lord Jeſus receive my Soul!</hi> Saying, Lord Jeſus, he called upon God. That is, owned his <hi>Deity.</hi> And this is the Paraphraſe, whereby Chriſtians were at firſt known. <hi>They that called on this Name.</hi>
+               <note place="margin">Act. 9.14-21. 1 Cor. 1.2.</note> 
+               <hi>All that in every place call on the Name of our Lord Jeſus Chriſt. (Carmen Chriſto, quaſi Deo, dicere ſecum invicem.</hi> As <hi>Plinie</hi> reports of them.)
+<note place="margin">
+                  <hi>L.</hi> 10. <hi>Ep.</hi> 97.</note> Whatſo<g ref="char:EOLhyphen"/>ever we Religiouſly call upon, we either find or make a God to our ſelves, by that very in<g ref="char:EOLhyphen"/>vocation.</p>
+            <p>The Lord then is He, whom we are to di<g ref="char:EOLhyphen"/>rect our Prayers unto; the Living God, and not Dead Idols; the Lord of all, and not any of his Creatures, not the beſt of them, Saints or Angels.</p>
+            <p>As for <hi>Idols,</hi> you may remember what <hi>Eli<g ref="char:EOLhyphen"/>jah</hi> ſaid to <hi>Baal</hi>'s Prieſts,
+<note place="margin">1 King. 18.24.</note> 
+               <hi>Call ye on the Name of your Gods, and I will call on the Name of the
+<pb n="24" facs="tcp:65790:14"/>Lord.</hi>
+               <note place="margin">Verſe 26.</note> Accordingly, they <hi>called on the Name of Baal,</hi> we read, <hi>from morning even until noon,</hi> ſay<g ref="char:EOLhyphen"/>ing, <hi>O Baal hear,</hi> or anſwer <hi>us. But there was no voice, neither any that anſwered.</hi> And <hi>Elijah</hi> mocks them upon it.
+<note place="margin">Verſe 20.</note> 
+               <hi>Cry aloud, for he is a God, he is talking</hi> (or meditateth, that is, in a deep ſtudy) <hi>or be is purſuing, or he is in a journey, or peradventure he ſleepeth and muſt be awaked. Their Idols,</hi>
+               <note place="margin">Pſal. 115.</note> ſaith the Pſalmiſt of the Heathen, <hi>are Silver and Gold, the work of mens bands. They have mouths,</hi>
+               <note place="margin">Pſal. 135.</note> 
+               <hi>but they ſpeak not; eyes have they, but they ſee not; ears, but they hear not,</hi> &amp;c. <hi>They that make them are like unto them: ſo is every one that truſteth in them. O Iſrael truſt thou in the Lord; He is their Help and their Shield,</hi> &amp;c. <hi>q. d.</hi> Aid and Defence is to be had from Him and from him only.</p>
+            <p>We muſt renounce all Confidence and De<g ref="char:EOLhyphen"/>pendence upon <hi>any other thing whatſoever.</hi>
+               <note place="margin">Pſal. 20.7, 8.</note> 
+               <hi>Some truſt in Chariots, and ſome in Horſes; but we will remember the Name of the Lord our God. They are brought down and fallen, but we are riſen and ſtand upright.</hi>
+               <note place="margin">Prov. 18.10.</note> 
+               <hi>The Name of the Lord is a ſtrong-Tower; the Righteous runneth into it, and is ſafe.</hi>
+            </p>
+            <p>God is offended, when we ſeek <hi>other Re<g ref="char:EOLhyphen"/>fuges:</hi>
+               <note place="margin">Hoſ. 7.10, 11.</note> 
+               <hi>The Pride of Iſrael,</hi> ſaith the Prophet,
+<pb n="25" facs="tcp:65790:14"/>
+               <hi>teſtifieth to his Face, and they do not return to the Lord their God, nor ſeek Him for all this. Ephra<g ref="char:EOLhyphen"/>im alſo is like a ſilly Dove without heart; They call to Egypt; They go to Aſſyria,</hi> &amp;c.
+<note place="margin">Jer. 17.5, 6, 7, 8.</note> 
+               <hi>Thus ſaith the the Lord, Curſed be the man, that truſteth in man, and maketh fleſh his arm, and whoſe heart departeth from the Lord. For he ſhall be like the Heath in the Deſert,</hi> &amp;c. <hi>Bleſſed be the man, who truſteth in the Lord, and whoſe hope the Lord is. For he ſhall be as a Tree planted by the Waters,</hi> &amp;c. It is the Character of the Ungodly; <hi>Lo,</hi>
+               <note place="margin">Pſal. 52.8.</note> 
+               <hi>This is the man, that took not God for his Strength, but truſted unto the multitude of his Riches</hi>
+               <note n="†" place="margin">See Pſal. 62.8, 9, 10.</note>.</p>
+            <p>Neither may we call upon <hi>Saints or Angels</hi> to help us,
+<note place="margin">Rev. 19.10.—22.9.</note> for they are all God's Creatures and Servants as well as we; they refuſe this Worſhip at our hands, and bid us give it unto God only, whom they together with us a<g ref="char:EOLhyphen"/>dore. I may here uſe the words of <hi>Eliphaz</hi> (which yet ſome of the <hi>Romiſh</hi> Church have been ſo abſurd,
+<note place="margin">
+                  <hi>Chamier Pan<g ref="char:EOLhyphen"/>ſtrat.</hi> Vol. 2. l. 2. c. 2.</note> as to quote for the invocation of Angels) <hi>Call now,</hi>
+               <note place="margin">Job 5.1.</note> 
+               <hi>if there be any that will an<g ref="char:EOLhyphen"/>ſwer thee; and to which of the Saints wilt thou turn?</hi>
+            </p>
+            <p>Secondly, As to the perſon invocating, he muſt be Righteous, at leaſt in the Goſpel ac<g ref="char:EOLhyphen"/>ceptation, that is, a ſincere and hearty Peni<g ref="char:EOLhyphen"/>tent.
+<pb n="26" facs="tcp:65790:15"/>For <hi>God heareth not Sinners,</hi>
+               <note place="margin">John 9.31.</note> 
+               <hi>viz.</hi> Such as continue in a courſe of Sin.
+<note place="margin">Prov. 15.8-29.</note> 
+               <hi>The Prayer or Sa<g ref="char:EOLhyphen"/>crifice of the wicked is an abomination to him. Unto the wicked ſaith God,</hi>
+               <note place="margin">Pſal. 50.</note> 
+               <hi>What haſt thou to do to take my Covenant into thy mouth, ſeeing thou hateſt to be reformed?</hi>
+               <note place="margin">Prov. 1.28, &amp;c. 28.9.</note> To ſuch he threatens; <hi>They ſhall call upon me, but I will not anſwer. He that turn<g ref="char:EOLhyphen"/>eth away his Ear from hearing the Law, his Pray<g ref="char:EOLhyphen"/>er ſhall be an abomination.</hi> To ſuch he ſaith a<g ref="char:EOLhyphen"/>gain,
+<note place="margin">Iſa. 1.15, &amp;c.</note> 
+               <hi>When ye ſpread forth your Hands, I will hide mine Eyes from you: Yea, when ye make many Prayers, I will not hear. Your Hands are full of Blood. Waſh you, make you clean: put away the evil of your doings from before mine Eyes: ceaſe to do Evil, learn to do Well: ſeek Judgment, relieve the Oppreſſed, judge the Fatherleſs, plead for the Widow. Come now, and let us reaſon together, ſaith the Lord.</hi> That is, upon <hi>theſe terms, and no o<g ref="char:EOLhyphen"/>ther,</hi>
+               <note place="margin">Verſ. 19, 20.</note> we may meet as Friends. <hi>If ye be willing and obedient, ye ſhall eat the good of the Land; but, if ye refuſe and Rebel, ye ſhall be devoured with the Sword, for the mouth of the Lord hath ſpoken it. Seek the Lord,</hi>
+               <note place="margin">Ch. 55.6, 7.</note> 
+               <hi>while he may be found: call ye upon him, while he is near;</hi> but to <hi>that end, let the Wicked forſake his way, and the Unrighteous man his thoughts,</hi>
+               <note place="margin">Ch. 58.<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> &amp;c. <hi>Then ſhalt thou call, and the Lord ſhall anſwer: Thou ſhalt cry, and he ſhall ſay, Here
+<pb n="27" facs="tcp:65790:15"/>I am. If thou takeſt from the midſt of thee the Yoak,</hi>
+               <note place="margin">Verſe 6.</note> &amp;c. the bands of Wickedneſs before ſpok<g ref="char:EOLhyphen"/>en of.
+<note place="margin">Jam. 5.16.</note> 'Tis the Prayer of a <hi>Righteous man that availeth.</hi> This our Pſalmiſt was very ſenſible of; Therefore, ſaith he, <hi>I will waſh mine hands in Innocence, ſo will I compaſs thine Altar, O Lord.</hi>
+               <note place="margin">Pſal. 26.6.</note> 
+               <hi>The Eyes of the Lord are upon the Righteous,</hi>
+               <note place="margin">—34.15.</note> 
+               <hi>and his Ears are open to their Prayers.</hi>
+               <note place="margin">—66.18.</note> 
+               <hi>If I regard Iniquity in my Heart, the Lord will not hear me.</hi> And in this very Pſalm,
+<note place="margin">Pſal. 18.20, &amp;c.</note> 
+               <hi>The Lord rewarded me according to my Righteouſneſs, according to the cleanneſs of my hands hath he recompenſed me: For I have kept the ways of the Lord; and have not wickedly departed from my God;</hi> (or not departed from my God, as the wicked doth) <hi>for all his judgments are before me, and I did not put his Statutes from me. I was alſo upright before him, and kept my ſelf from mine Iniquity.</hi> (Eſchewed mine own wickedneſs.) <hi>Therefore hath the Lord recompenſed me according to my Righteouſneſs, according to the cleanneſs of my Hands in his Eye-ſight.</hi>
+            </p>
+            <p>And yet this <hi>Pſalm</hi> was moſt probably in<g ref="char:EOLhyphen"/>dited (if we keep to the ſeries of the Hiſtory,
+<note place="margin">See Dr. <hi>H. in Loc.</hi>
+               </note> where 'tis firſt recorded, 2 <hi>Sam.</hi> 22.) after the Commiſſion of thoſe great Sins of Adultery with <hi>Uriah</hi>'s Wife, making him Drunk, con<g ref="char:EOLhyphen"/>triving his Death, and Living for ſome conſi<g ref="char:EOLhyphen"/>derable
+<pb n="28" facs="tcp:65790:16"/>time, before <hi>Nathan</hi> came to him from God under this guilt. Theſe many expreſſions therefore of his Univerſal Uprightneſs muſt be Interpreted and Underſtood, as the Scripture elſewhere ſpeaks, with the exception of that matter of <hi>Uriah,</hi> 1 <hi>Kings</hi> 15.5. <hi>David did that which was right in the Eyes of the Lord, and turned not aſide from any thing that he commanded him, all the days of his life, ſave only in the matter of Uriah the Hittite.</hi> And we are farther to remember, That, for that too, he had Repented before the Compoſure of this <hi>Pſalm.</hi> And Repent<g ref="char:EOLhyphen"/>ance, when ſincere, reſtores to God's Favour and Acceptance, as if we were Innocent.</p>
+            <p>Thirdly, For the Prayer or Invocation it ſelf, that muſt be the Exerciſe of all ſorts of Graces, and not the Labor of our Lips only. But,
+<note place="margin">Iſa. 29.13.</note> more eſpecially, this Holy Incenſe muſt have theſe following perfumes in it.</p>
+            <p n="1">(1) It muſt be with Humility and Reve<g ref="char:EOLhyphen"/>rence. With Humility, in a deep ſenſe of our Unworthineſs and Diſtance from God, as <hi>Creatures,</hi> but much more as <hi>Sinners.</hi> No one loves a proud Begger.
+<note place="margin">Jam. 4.6. 1 Pet. 5.5.</note> Such God is ſaid to look on afar off: But he giveth Grace, ſhew<g ref="char:EOLhyphen"/>eth Favour to the Humble.
+<note place="margin">Pſal. 9.12. —10.17. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>b 22.29.</note> 
+               <hi>He heareth the de<g ref="char:EOLhyphen"/>ſire of the Humble, and will not forget their Cry, but will ſave them.</hi>
+            </p>
+            <pb n="29" facs="tcp:65790:16"/>
+            <p> And then there muſt be a Reverence to That Majeſty which we approach unto. That is a Due, we know, to all our Betters. [See <hi>Malachi</hi> 1.8.] <hi>Let us therefore have grace, whereby we may ſerve God acceptably,</hi>
+               <note place="margin">Hebr. 12.28.</note> 
+               <hi>with reverence and godly fear.</hi>
+            </p>
+            <p n="2">(2) With <hi>Faith.</hi>
+               <note place="margin">Heb. 11.6.</note> 
+               <hi>Without Faith it is impoſſible to pleaſe God; for he that cometh unto God, muſt believe that he is, and that he is a rewarder of them that diligently ſeek him.</hi> So St. <hi>James</hi> directs. <hi>If any of you lack Wiſdom, let him ask of God,</hi>
+               <note place="margin">Jam. 1.5, 6.</note> 
+               <hi>who giveth to all men liberally; but let him ask in Faith, nothing wavering:</hi> where yet Faith ſeems to import rather a ſtedfaſt adhering to the Chri<g ref="char:EOLhyphen"/>ſtian Profeſſion,
+<note place="margin">See Dr. <hi>H. in loc.</hi>
+               </note> than a General Belief of God's Being, Attributes, or Promiſes.</p>
+            <p n="3">(3) With <hi>Sincerity. Not out of feigned lips,</hi>
+               <note place="margin">Pſal. 17.1.</note> 
+               <hi>or Lips of Deceit;</hi> but in Truth. <hi>The Lord is nigh unto all them that call upon him,</hi>
+               <note place="margin">145.18.</note> 
+               <hi>to all that call upon him in Truth,</hi> or Faithfully. And this is that which the Prophet <hi>Iſaiah</hi> expreſſeth by calling on God with <hi>all the heart. Then ſhall ye call upon me,</hi>
+               <note place="margin">Iſa. 29.12.</note> 
+               <hi>and ye ſhall go and pray unto me, and I will hearken unto you; and ye ſhall ſeek me, and find me, when ye ſhall ſearch for me with all your heart.</hi> And St. <hi>Paul</hi> ſtyles it, <hi>Calling on the Lord out of a pure</hi> (that is,
+<note place="margin">2 Tim. 2.22.</note> an <hi>honeſt</hi> and <hi>upright) heart.</hi>
+            </p>
+            <p n="4">
+               <pb n="30" facs="tcp:65790:17"/> (4) With <hi>Zeal</hi> and <hi>Fervencie.</hi> For it is <hi>good alwayes,</hi>
+               <note place="margin">Gal. 4.18.</note> ſaith the Apoſtle, <hi>to be zealouſly affect<g ref="char:EOLhyphen"/>ed in a good matter:</hi> But he that asks coldly, teacheth another to deny his Requeſts. We can never think or hope, that God will at<g ref="char:EOLhyphen"/>tend to thoſe cold and drouſie Prayers, which we hardly attend unto, or mind our ſelves in the utterance of them. 'Tis the <hi>fervent Prayer of a righteous man that availeth much.</hi> Our Bleſſed Saviour ſpeaks a Parable, to learn us the Force of Importunity, both with God and Man, St. <hi>Luk.</hi> 18. We are to pray as thoſe that are in good earneſt, and ſenſible of the Great Concerns we call upon him about; and there<g ref="char:EOLhyphen"/>fore to excite and ſtirre up all the Powers of our Souls thereunto, that we be not among Thoſe, of whom the Prophet complains, <hi>There is none that calleth upon thy Name,</hi>
+               <note place="margin">Iſa. 64.7.</note> 
+               <hi>that ſtirreth up himſelf to take hold on Thee.</hi>
+            </p>
+            <p n="5">(5) With <hi>Charitie;</hi> for <hi>without This we are nothing,</hi>
+               <note place="margin">1 Cor. 13.1, 3.</note> and <hi>nothing profits</hi> us. But <hi>Bleſſed are the merciful,</hi>
+               <note place="margin">Matth. 5.</note> 
+               <hi>for they ſhall obtain mercie. With the merciful Thou wilt ſhew thy ſelf merciful,</hi> ſaith our Pſalmiſt.
+<note place="margin">Pſal. 18.25.</note> But <hi>he ſhall have Judgment without mercie,</hi>
+               <note place="margin">Jam. 2.13.</note> 
+               <hi>who hath ſhewed no mercie;</hi> With the ſame meaſure we mete to others, God will meaſure to us again. And therefore he ſaith,
+<pb n="31" facs="tcp:65790:17"/>
+               <hi>Give and it ſhall be given to you.</hi>
+               <note place="margin">Luk. 6.38.</note> 
+               <hi>Forgive and it ſhall be forgiven.</hi> But <hi>if ye forgive not, neither will your Heavenly Father forgive you. If thou bring thy gift to the Altar; go thy way, firſt be reconciled to thy Brother,</hi> &amp;c.
+<note place="margin">Prov. 21.13.</note> 
+               <hi>Whoſo ſtoppeth his ears at the Crie of the Poor, he alſo ſhall crie him<g ref="char:EOLhyphen"/>ſelf, and ſhall not be heard.</hi>
+            </p>
+            <p n="6">(6) We muſt continue our Importunity with <hi>Perſeverance,</hi> without Fainting and grow<g ref="char:EOLhyphen"/>ing weary; not contenting our ſelves with having once petitioned,
+<note place="margin">Pſal. 25.5.37.7.86.3, &amp;c. 123.2.</note> but following on our Suit, and waiting patiently ſtill upon God from day to day, untill he have Mercy upon us. To this purpoſe our Bleſſed Saviour ſpake a Parable, <hi>That men ought alwaies to pray,</hi>
+               <note place="margin">Luk. 18.</note> 
+               <hi>and not to faint.</hi>
+            </p>
+            <p>And yet, (7) We muſt pray with a due Submiſſion of our ſelves unto <hi>God</hi>'s <hi>Will</hi> and <hi>Wiſdom,</hi> not confining him to any particular ways or methods of our own deviſing.
+<q>
+                  <l>Permittes ipſis expendere Numinibus, Quid</l>
+                  <l>Conveniet nobis rebuſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſit utile noſtris.</l>
+               </q> Remarkable was the Reſignation of King <hi>Da<g ref="char:EOLhyphen"/>vid</hi>'s Spirit unto God Almighty's pleaſure. <hi>If I ſhall find favour in the eyes of the Lord,</hi>
+               <note place="margin">2 Sam. 15.25, 26.</note> 
+               <hi>he will bring me again,— but if he Thus ſay, I have no
+<pb n="32" facs="tcp:65790:18"/>delight in Thee; behold here am I, let him do to me as ſeemeth good unto him.</hi> 'Tis the Petition our Bleſſed Saviour hath taught us, <hi>Thy will be done;</hi> and ſuch was his own Example to us: <hi>Father, if it be poſſible let This Cup paſs from me. Nevertheleſs not what I will, (not as I will) but Thy will be done.</hi> We muſt own that God is Righteous in whatſoever befalls us, and be ready to apologize for his Providence. 'Tis of his <hi>Mercie</hi> alone that we are <hi>not conſumed,</hi> and our only Hope is, That his <hi>Compaſſions fail not.</hi>
+            </p>
+            <p n="8">(8) We muſt be ſure that we tender up our <hi>Requeſts</hi> unto God in the prevailing Name of <hi>Jeſus Chriſt,</hi> his Beloved Son, our Great and only High-Prieſt, Mediator and Advo<g ref="char:EOLhyphen"/>cate; by whom we have <hi>received the Atonement,</hi> and <hi>who ever liveth to make interceſſion.</hi>
+               <note place="margin">Dan. 9.17, 18.</note> Not <hi>for our Righteouſneſs,</hi> ſaith the Prophet <hi>Daniel,</hi> but <hi>for the Lord's ſake; [Propter Chriſtum,</hi> as <hi>Caſta<g ref="char:EOLhyphen"/>lio</hi> there notes,] ſo we are taught to conclude all our Prayers. The Direction and Encou<g ref="char:EOLhyphen"/>ragement comes from our Bleſſed Saviour him<g ref="char:EOLhyphen"/>ſelf:
+<note place="margin">Joh. 14.13, 14.</note> 
+               <hi>Whatſoever ye ſhall ask in my Name, that I will do, that the Father may be glorified in the Son. If ye ſhall ask any thing in my Name, I will do it.— Do all therefore in the Name of Jeſus Chriſt,</hi>
+               <note place="margin">Col. 3.17.</note> ſaith
+<pb n="33" facs="tcp:65790:18"/>the Apoſtle, <hi>giving thanks to God and the Father by him.</hi>
+            </p>
+            <p>Laſtly, Our <hi>Prayers</hi> muſt be followed with <hi>ſuitable Endeavours.</hi> We muſt not only <hi>Ask,</hi> but <hi>ſeek</hi> and <hi>knock</hi> too; that is, enquire after the moſt probable and likely <hi>Means,</hi> and be diligent and induſtrious to remove the <hi>Impe<g ref="char:EOLhyphen"/>diments</hi> in our way;
+<note place="margin">Mr. <hi>Hooker</hi>'s Serm. in the end of Biſhop <hi>Sanderſons</hi> life.</note> as a Reverend Perſon in<g ref="char:EOLhyphen"/>geniouſly Gloſſeth on Thoſe words. We muſt be like the Good Pilot, that hath his hand to the Helm, as well as his Eye to Heaven. We muſt not be lazy and idle Petitioners; like the Countrey-man in the Fable, that content<g ref="char:EOLhyphen"/>ed himſelf barely with crying out to <hi>Hercules</hi> to help him out of the mire. Remarkable is That of <hi>Nehemiah:</hi>
+               <note place="margin">Nehem. 4.9.</note> 
+               <hi>Nevertheleſs we made a Prayer unto our God,</hi> ſaith he, <hi>and ſet a Watch againſt them,</hi> (the Enemies) <hi>day and night becauſe of them.</hi> 'Tis an excellent Rule of <hi>Hierocles:</hi> [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,]
+<note place="margin">In Pythag.</note> 
+               <hi>What we endeavour, let us pray for; and what we pray for, let us alſo endeavour.</hi> There <hi>muſt be all along,</hi> ſaith he, [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,] <hi>an union of Prayer and Endeavour;</hi> we muſt neither be for [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,] an <hi>Atheiſtical</hi> and <hi>Godleſs</hi> or <hi>graceleſs Endeavour,</hi> nor [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,] an <hi>Idle</hi> and <hi>inoperative Prayer.</hi>
+            </p>
+            <pb n="34" facs="tcp:65790:19"/>
+            <p> Now having ſaid thus much of the Gene<g ref="char:EOLhyphen"/>ral Qualifications, which muſt accompany our Calling upon God, to render it ſucceſſeful: Let me yet annex <hi>Two more,</hi> that are very pro<g ref="char:EOLhyphen"/>per to our <hi>publick Devotion:</hi> And ſo our Prayers will ſtill be the more prevalent, if attended
+<list>
+                  <item>(1.) With <hi>Faſting.</hi> And,</item>
+                  <item>(2) With <hi>Unanimity.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Firſt, <hi>Faſting</hi> is to be added unto Prayer, both as a Means to render us more attentive and fer<g ref="char:EOLhyphen"/>vent in the ſame, and as a Teſtimony of our Humiliation before God in the Confeſſion of our Sins, and judging our ſelves- unworthy to be any longer ſuſtained in Life by God, chaſtening and afflicting our Souls in his preſence, by vo<g ref="char:EOLhyphen"/>luntary Penance, for our manifold Tranſgreſſi<g ref="char:EOLhyphen"/>ons and Exceſſes. There are ſome Devils not to be caſt out,
+<note place="margin">Mat. 17.21.</note> but by <hi>Prayer and Faſting,</hi> as our Bleſſed Saviour acquaints us. And we may well reckon the Devil of cruel Treachery and Perfidiouſneſs in that number. This hath been the conſtant way of the Church of God in all great Exigencies, by Faſting together with Prayer to call upon God, as you may read in <hi>Ezra, Nehemiah, Eſther, Iſaiah, Daniel,</hi> &amp;c. <hi>Turn ye to me,</hi>
+               <note place="margin">Joel 2.</note> ſaith the Lord by his Prophet <hi>Joel, with all your heart, and with Faſting, and with Weeping,
+<pb n="35" facs="tcp:65790:19"/>and with Mourning; and rent your Heart and not your Garment,</hi> [that is, <hi>not your Garment only.</hi> Let there not be only the external ſigns of Humiliation and Mourning, but the Thing ſignified by them; both Sign and Thing ſig<g ref="char:EOLhyphen"/>nified together;] <hi>who knoweth if he will return and repent, and leave a Bleſſing behind him?</hi> [This, to be ſure, is the likelieſt way of ſpeeding:] He addes therefore, <hi>Blow the Trumpet in Sion, ſanctifie a Faſt, call a ſolemn Aſſembly; Gather the People, ſanctifie the Congregation, aſſemble the Elders: Gather the Children, and thoſe that ſuck the Breaſts: Let the Bridegroom go forth of his Chamber, and the Bride out of her Cloſet: Let the Prieſts the Miniſters of the Lord weep between the Porch and the Altar, and let them ſay, Spare thy people, O Lord.</hi> Where we find, That the Faſt muſt be general, when we call upon God for a General Bleſſing; and all that are concerned in the Effect, ſhould be alſo in the Means to it. And whatever ſome vain peo<g ref="char:EOLhyphen"/>ple judge of the needleſneſs or Indifference of Faſting, God takes it extremely ill, if any un<g ref="char:EOLhyphen"/>der publick Calamities comply not with this Preſcription. <hi>In that day,</hi> ſaith the Prophet,
+<note place="margin">Iſa. 22.12, 13, 14.</note> 
+               <hi>did the Lord God of Hoſts call to weeping and to mourning, and to baldneſs, and to girding with
+<pb n="36" facs="tcp:65790:20"/>Sackcloth; and Behold Joy and Gladneſs, ſlaying Oxen and killing Sheep, eating Fleſh and drinking Wine.— And it was revealed in mine ears by the Lord of Hoſts, ſurely This iniquity ſhall not be purged from you, till ye die, ſaith the Lord God of Hoſts.</hi>
+            </p>
+            <p>Secondly, We are to call upon God with Conſent and <hi>Unanimity,</hi> that we may be as joint Supplicants, beſieging Heaven, as it were, with an holy Violence in our united Impor<g ref="char:EOLhyphen"/>tunities for Mercy. So the Prophet <hi>Zephaniah</hi> hath it,
+<note place="margin">Zeph. 3.9.</note> 
+               <hi>That they may call upon the Name of the Lord, to ſerve him with one conſent, or with one ſhoulder.</hi> And thus we read of the Primitive Chriſtians;
+<note place="margin">Act. 2.1.</note> 
+               <hi>They were all</hi> [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,] <hi>with one accord in one place.</hi> And, when St. <hi>Peter</hi> was in Priſon,
+<note place="margin">Ch. 12.5.12.</note> 
+               <hi>Prayer was made without ceaſing</hi> (or <hi>inſtant</hi> and <hi>earneſt Prayer</hi> was made) <hi>of the Church unto God for him.— Many were gathe<g ref="char:EOLhyphen"/>red together Praying.</hi> To ſuch Aſſemblies now, as Theſe, that Promiſe of our Bleſſed Savi<g ref="char:EOLhyphen"/>our reacheth with Advantage:
+<note place="margin">Mat. 18.19, 20.</note> 
+               <hi>I ſay unto you, that, if Two of you ſhall agree on Earth touching any thing that they ſhall ask,— For, where Two or Three are gather'd together in my Name, there am I in the midſt of them.</hi> Much more then, where there are many Two's and Three's, a whole Nation at the ſame time upon their
+<pb n="37" facs="tcp:65790:20"/>knees together (if other requiſits are not want<g ref="char:EOLhyphen"/>ing) may they be ſure of obtaining that thing, which they ask in particular, or ſomewhat better in the room of it.</p>
+            <p>This is the advantage of publick and com<g ref="char:EOLhyphen"/>mon Prayers, (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Ignatius</hi>) calling upon God in and with his Church, that he would ſend both King and People help from his <hi>Sanctuary,</hi> and ſtrengthen them out of <hi>Sion.</hi>
+               <note place="margin">Pſal. 20.</note>
+            </p>
+            <p>And thus much now for the ſecond point, the Duty or Practice here reſolved upon, call<g ref="char:EOLhyphen"/>ing upon the Lord, with thoſe ſeveral qualifi<g ref="char:EOLhyphen"/>cations which will render it moſt effectual and ſucceſsful.</p>
+            <p>It remains in the Third place, that I add a few words alſo of the ſpecial Character an<g ref="char:EOLhyphen"/>nexed unto the object of our <hi>Pſalmiſts</hi> invoca<g ref="char:EOLhyphen"/>tion, <hi>Who is worthy to be praiſed. I will call on the Lord who is worthy to be praiſed.</hi>
+            </p>
+            <p>The word is capable of a <hi>double rendring, Who is worthy to be praiſed,</hi> or <hi>whom I praiſe.</hi> And accordingly Expoſitors render it differently; but both waies to a purpoſe very fit to be ob<g ref="char:EOLhyphen"/>ſerved diligently by us [lxxii. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> in 2 <hi>Sam.</hi> 22. but here, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and the <hi>Lat.</hi> accordingly, <hi>Invocabo Dominum laudabilem vel laudatum: &amp; laudans invocabo.</hi>]</p>
+            <p n="1">
+               <pb n="38" facs="tcp:65790:21" rendition="simple:additions"/> (1) <hi>I will call on the Lord, who is (Omni laude digniſſimus) worthy of all Praiſe;</hi> the moſt lovely Object of Veneration. And ſo it trains us up to the higheſt thoughts of that Adorable Ob<g ref="char:EOLhyphen"/>ject we call upon. <hi>Worthy to be praiſed,</hi> is the Sum and Abſtract of all his Perfections together; and therefore prompts us to Ap<g ref="char:EOLhyphen"/>proach unto him with Good and Valuable Thoughts of him: not as a cruel Tyrant, delighting in his Creatures Miſeries and Tor<g ref="char:EOLhyphen"/>ments: not as an hard Maſter, with-holding from his Servants, more than is meet; but a moſt Gracious Lord, as willing as he is able to Help and Relieve us; a moſt Indulgent Fa<g ref="char:EOLhyphen"/>ther, as far above all Earthly Parents in Wiſ<g ref="char:EOLhyphen"/>dom, Power, goodneſs and readineſs to hear, and ſupply his Childrens wants, as Heaven is above Earth.</p>
+            <p>And here I might obſerve to you farther, that it is the Holy Prudence of Pious Men, frequently exemplified in Sacred Writ, to call upon God under ſuch Appellations, Titles, or Attributes as are moſt agreable to the matter of their preſent Petition, and fitteſt to Ani<g ref="char:EOLhyphen"/>mate and Encourage their Hopes of receiving from him. So doth the <hi>Pſalmiſt</hi> here in ef<g ref="char:EOLhyphen"/>fect, <hi>I will call on the Lord, who is worthy to be
+<pb n="39" facs="tcp:65790:21"/>praiſed, viz.</hi> as for his Power and Wiſdom and Goodneſs at <hi>all times,</hi> ſo for his abundant Mer<g ref="char:EOLhyphen"/>cy, which I have <hi>already</hi> had a frequent ex<g ref="char:EOLhyphen"/>perience of, <hi>&amp;c.</hi>
+            </p>
+            <p n="2">(2) I will call upon him, <hi>whom I alſo praiſe,</hi> tendring up my <hi>Thanksgivings</hi> for mercies al<g ref="char:EOLhyphen"/>ready beſtowed, while I offer up afreſh <hi>Petiti<g ref="char:EOLhyphen"/>ons</hi> for renewed favours from him; and thus gathering encouragement, from what I have already received, to continue my Dependence chearfully upon him, and Faith in him for the future. There is a great conſent of Interpre<g ref="char:EOLhyphen"/>ters this way. <hi>I will praiſe the Lord and call up<g ref="char:EOLhyphen"/>on him.</hi> So the <hi>Arabic. In a Song or Hymn I pour out Prayers.</hi> So the <hi>Chaldee.</hi>
+               <note place="margin">See Dr. <hi>H.</hi> &amp; <hi>Vicars Decapl. in Loc.</hi>
+               </note> 
+               <hi>I will call upon him with Praiſes.</hi> So <hi>R. Sol. Praiſing him with Prayers.</hi> So <hi>Apollinarius. i. e.</hi> joyning of Praiſes and Requeſts, Doxologies and Letanies together. <hi>When I ſhall have praiſed him firſt for his paſt Benefits, I will then call upon him for thoſe yet to come.</hi> So a <hi>Latin M. S. Having celebrat<g ref="char:EOLhyphen"/>ed the Lord with theſe Encomium's, (viz.</hi> of the precedent Verſe) <hi>I will now call upon him.</hi> So <hi>Clarius. Invocabo laudatum. I will call upon him being praiſed,</hi> that is, in a Poetical Phraſe,
+<note place="margin">Dr. <hi>H.</hi>
+               </note> 
+               <hi>I will firſt praiſe him, and then call upon him.</hi> He ſignifies hereby, as Mr. <hi>Calvin</hi> Notes, <hi>[preces
+<pb n="40" facs="tcp:65790:22" rendition="simple:additions"/>ſuas laudibus miſtas fore]</hi> That his Prayers ſhall be mingled with Praiſes and Thanksgivings, according to that of the 116 <hi>Pſalm, I will take the Cup of Salvation, and call upon the Name of the Lord,</hi> Verſ. 13. And again, <hi>Offer the Sacri<g ref="char:EOLhyphen"/>fice of Thankſgiving, and call on the Name of the Lord,</hi> Verſ. 17. So is the Apoſtolical Directi<g ref="char:EOLhyphen"/>on.
+<note place="margin">Phil. 4.6.</note> 
+               <hi>In every thing by Prayer and Supplication, with Thanksgiving, let your requeſts be made known to God.</hi> We are at the ſame time to teſtifie both our <hi>Gratitude</hi> and <hi>Dependence;</hi> and Thank<g ref="char:EOLhyphen"/>fulneſs for what we have received, is one ef<g ref="char:EOLhyphen"/>fectual way of obtaining what we want. <hi>I will therefore call on the Lord with a grateful ac<g ref="char:EOLhyphen"/>knowledgment of his former Goodneſs, gathering en<g ref="char:EOLhyphen"/>couragement from thence ſtill to continue my Petiti<g ref="char:EOLhyphen"/>ons unto him, who hath already ſo well deſerved of me. The Mercies he hath vouchſafed me hitherto are not only ſo many</hi> Eſſaies <hi>of his power and readi<g ref="char:EOLhyphen"/>neſs to relieve me,</hi>
+               <note place="margin">Dr. <hi>H.</hi> Par.</note> 
+               <hi>but alſo ſo many</hi> Pawns and Pledges <hi>for the future; and therefore to my Songs of Praiſe I chearfully add my moſt Humble and Ear<g ref="char:EOLhyphen"/>neſt Requeſts: And, thus doing, never fail of a Gracious return from him.</hi>
+            </p>
+            <p>Which leades us to the <hi>ſecond part</hi> of the Text, namely, the Pſalmiſt's <hi>motive</hi> to his Re<g ref="char:EOLhyphen"/>ſolution and Practice from the aſſured good <hi>ſuc<g ref="char:EOLhyphen"/>ceſs</hi>
+               <pb n="41" facs="tcp:65790:22"/>of it. <hi>So ſhall I be ſafe from mine Enemies.</hi> And this I ſhall little more than gloſs upon.</p>
+            <p>Be mine Enemies never ſo Potent and For<g ref="char:EOLhyphen"/>midable; for Multitude, never ſo many; an Hoſt of Devils and Sons of <hi>Belial;</hi> for Power, never ſo ſtrong; for Malice, never ſo ſpiteful and cruel; for Policie, never ſo cunning; in their Aſſaults, never ſo violent; in their Confederacies, never ſo combined; in their Plots, never ſo ſecret: I ſhall, neverthe<g ref="char:EOLhyphen"/>leſs, be ſaved from them all, and remain ſe<g ref="char:EOLhyphen"/>cure by the Divine interpoſure on my behalf. <hi>Dwelling in the ſecret place of the moſt High,</hi>
+               <note place="margin">Pſal. 91.</note> 
+               <hi>I ſhall abide under the ſhadow of the Almighty. There ſhall no Evil befall me, neither ſhall any Plague come nigh my Dwelling: for he ſhall give his Angels charge over me, to keep me in all my waies. He will Anſwer me, whenſoever I call; will be with me in Trouble; will Deliver and Honour me; with long life will he ſatisfie me, and ſhew me his Sal<g ref="char:EOLhyphen"/>vation.</hi>
+            </p>
+            <p>All Salvation is of the Lord, and he hath a peculiar regard in his ſaving Providence un<g ref="char:EOLhyphen"/>to Kings.
+<note place="margin">Pſal. 144.10.</note> 
+               <hi>It is He that giveth Salvation unto Kings, that delivereth David his Servant from the hurtful Sword.</hi> And the like Acknowledg<g ref="char:EOLhyphen"/>ment we have in the cloſe of this 18<hi rend="sup">th</hi> 
+               <hi>Pſalm.
+<pb n="42" facs="tcp:65790:23"/>Great Deliverance giveth he to his King, and ſheweth Mercy to his Anointed, to David and to his ſeed for ever.</hi> [Even the ſucceſſion of Anointed ones, the whole race of Kings throughout all gene<g ref="char:EOLhyphen"/>rations.]
+<note place="margin">St. <hi>Chryſ. Li<g ref="char:EOLhyphen"/>turg.</hi>
+               </note> They are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> preſerved by him, by whom they Reign. But yet God expects to be <hi>ſought unto by them too;</hi> that they own and acknowledge their need of his Help, and put themſelves into a capacity of receiv<g ref="char:EOLhyphen"/>ing it, in the moſt becoming poſture, from him. That therefore is the Ground of the <hi>Pſalmiſts</hi> Reſolution, <hi>I will call on the Lord, who is worthy to be praiſed: ſo ſhall I be ſafe from mine Enemies.</hi>
+            </p>
+            <p>And, that we may all, in a proportion, ga<g ref="char:EOLhyphen"/>ther the like encouragement unto this Duty of calling upon God in our Diſtreſſes and Trou<g ref="char:EOLhyphen"/>bles, we are to remember, that he is ſtiled in general,
+<note place="margin">Pſal. 65.</note> 
+               <hi>The hearer of Prayers, unto whom all Fleſh therefore is to come;</hi> that he hath bid us <hi>Ask, Seek, Knock,</hi> with promiſe that <hi>he who asketh ſhall receive; and he that ſeeketh ſhall find, and to him that knocketh it ſhall be opened:</hi> That He hath aſſured, <hi>If we who are Evil know how to give good Gifts to our Children, much more will He, our Heavenly Father, give Good things to them that ask him.</hi>
+            </p>
+            <pb n="43" facs="tcp:65790:23"/>
+            <p> 
+               <hi>Whoſoever ſhall call on the Name of the Lord ſhall he ſaved;</hi> ſaith the Prophet <hi>Joel,</hi>
+               <note place="margin">Joel 2.32. Act. 2.21. Rom. 10.13.</note> and it is thrice quoted for Confirmation in the <hi>New Teſtament.</hi> And the promiſe refers to as black and diſmal Times, as we can well imagine, <hi>viz.</hi> ſuch as attended the Siege of <hi>Jeruſalem</hi> by the <hi>Romans.</hi> When there were the dreadful Appearances of <hi>Blood and Fire, and Pillars of Smoke, the Sun turned into Darkneſs, and the Moon into Bloud; even the great and terrible Day of the Lord come upon them.</hi> Nevertheleſs, in theſe circumſtances, the promiſe is left. <hi>Whoſoever ſhall call on the Name of the Lord, ſhall be Delivered.</hi>
+            </p>
+            <p>And for our farther Confirmation as to the <hi>publick invocation of God,</hi> with the Congregati<g ref="char:EOLhyphen"/>ons of his Saints in his Holy Temple, we may caſt our Eyes on the ſeveral paſſages of King <hi>Solomon</hi>'s Prayer at the Dedication of the Tem<g ref="char:EOLhyphen"/>ple, the Houſe of Prayer which God himſelf teſtified his Acceptance of. <hi>Hearken then,</hi>
+               <note place="margin">1 Kings 8.</note> ſaith he, <hi>unto the Supplication of thy Servant, and of thy people Iſrael, when they ſhall pray towards this place, and Hear thou in Heaven, and Forgive and Do, that all the People of the Earth may know thy Name to fear thee, as do thy People Iſrael,</hi> &amp;c. We un<g ref="char:EOLhyphen"/>der the <hi>New Teſtament,</hi> to be ſure, are nothing ſhort of them in real Priviledges; nay, God
+<pb n="44" facs="tcp:65790:24"/>hath reſerved <hi>ſome better thing for us.</hi> For, though we have not their Temple, yet we have their God as near unto us in all that we call upon him for; we have the Holy Spirit, whereby we cry <hi>Abba Father,</hi> making <hi>inter<g ref="char:EOLhyphen"/>ceſſion</hi> within us; and we have a moſt pow<g ref="char:EOLhyphen"/>erful Advocate at God's right hand, Jeſus Chriſt the righteous, by whom we may come with Confidence to the <hi>Throne of Grace,</hi>
+               <note place="margin">Hebr. 4.16.</note> 
+               <hi>that we may obtain Mercy and find Grace,</hi> [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,] for our moſt <hi>ſeaſonable</hi> Relief in the time of need.</p>
+            <p>And now I have, with what brevity I could, run over the Text: It remains, that I apply it alſo briefly to the occaſion of our preſent Aſſembly; which I ſhall beſt do by giving you firſt a ſhort Account of Thoſe ſad and troubleſome Circumſtances, we are involved in; and then exhorting and encouraging of you together with my ſelf, to practiſe accord<g ref="char:EOLhyphen"/>ing to this good example ſet before us.</p>
+            <p>But Firſt, it will be requiſite for us to <hi>ſee and take notice of our Danger.</hi> An execrable Plot is by God's Gracious Providence diſco<g ref="char:EOLhyphen"/>ver'd and brought to light (whereof the <hi>King himſelf</hi> hath given notice to the Parliament, and the <hi>Parliament</hi> upon ſuch witneſs as they
+<pb n="45" facs="tcp:65790:24"/>had before them, have agreed to declare their <hi>Belief</hi> of it.) An execrable Plot, I ſay, to take away his Majeſties Life, ſubvert the Govern<g ref="char:EOLhyphen"/>ment we live under, and that Proteſtant Re<g ref="char:EOLhyphen"/>ligion which we profeſs; And This Plot long in laying, and by the Complication of many Intereſts deſign'd at laſt to be brought to its Effect, through the Combination both of Foreign Powers and Domeſtick Treachery. A Plot, wherein we have the Venom and poyſon of all former Plots in their Quin<g ref="char:EOLhyphen"/>teſſence put together, and which, in its exe<g ref="char:EOLhyphen"/>cution, was like to have been attended with a General Maſſacre. A Plot, wherein our Adverſaries ſaid, <hi>They ſhall not know, neither ſee,</hi>
+               <note place="margin">Nehem. 4.</note> 
+               <hi>till we come in the midſt among them, and ſlay them.</hi> And indeed they had found us altogether na<g ref="char:EOLhyphen"/>ked. We had been left without all manner of Protection and Defence, All Commiſſions expiring with the Kings Life; and the chief places of Truſt and Importance both in Church and State prediſpoſed of to our ſworn Enemies. A Plot, the Diſcovery of which they ſought to have prevented or diſcountenanc'd at its firſt appearance, by the horrid Murther of an Eminent Patriot imploy'd in the ſearch after it. The Perſons concern'd are all <hi>Ro<g ref="char:EOLhyphen"/>miſh</hi>
+               <pb n="46" facs="tcp:65790:25"/>Agents, <hi>Prieſts</hi> and <hi>Jeſuites,</hi> and others of that Communion, abetted with Foreign Powers, as I ſaid, who are Enemies both to our State and Religion. Theſe our Enemies are extremely formidable in their Number, their Malice, their Cruelty, their Confede<g ref="char:EOLhyphen"/>racy in Miſchief againſt us, ſo linked toge<g ref="char:EOLhyphen"/>ther, that it will be hard to make a full Diſco<g ref="char:EOLhyphen"/>very of them. Such they are as ſtand accu<g ref="char:EOLhyphen"/>ſed for having had an hand in moſt of thoſe publick and Tragical Calamities we have, ever ſince their defeated Powder-plot, groaned under. And, That which is moſt execrable, they act all in the Name of God, under a colour and pretence of Religion, and by ver<g ref="char:EOLhyphen"/>tue of the Principles of that <hi>Romiſh Faith,</hi> which baptizeth Rebellion, Faction, Sedition, Parricide and Murther by an holy Name and Title. They look on us all as a Body or pack of Hereticks, unfit to live, with whom no Faith or Fealty at all is to be kept, and whom it is but an Act of Penance, nay, of Merit, to ſacrifice upon every Occaſion, with the ut<g ref="char:EOLhyphen"/>moſt hazard, for the promotion of what they miſcall the <hi>Catholick Cauſe.</hi> This is the ſumme of our Caſe; and, the greateſt miſchief is, we yet ſee not into the bottom of this Damnable
+<pb n="47" facs="tcp:65790:25"/>Contrivance againſt us; only are left to gheſs, if a little Fire is able to kindle a mighty Con<g ref="char:EOLhyphen"/>flagration, how diſmal and amazing Flames ſo many Incendiaries at work are likely to produce, if not timely found out and pre<g ref="char:EOLhyphen"/>vented.
+<note place="margin">Pſal. 64.</note> 
+               <hi>They encourage themſelves in an evil matter; They commune of laying Snares privily; They ſay, Who ſhall ſee? They ſearch out iniquities; The inward thought of every one of them and the heart is deep.</hi>
+            </p>
+            <p>Now let us in the next place, I beſeech you, take notice, what great reaſon we have to bleſs God Almighty, and to <hi>praiſe</hi> his Name, that This, ſo Helliſh a Plot, is ſo far diſcovered already, inſtead of being made known to us only by the fatal Execution of it. <hi>The God, we This day call upon, is Worthy to be praiſed,</hi> and to be for ever praiſed by us, that he hath hitherto prevented, and brought to light This Diabolical Wickedneſs in ſo many Tracks and Footſteps of it. That He hath Thus far protected and preſerved our moſt Gracious King and all his Loyal Subjects, in the freedom and profeſſion of the True Pro<g ref="char:EOLhyphen"/>teſtant Religion, againſt them that, from the Youth up of our Reformation, have trou<g ref="char:EOLhyphen"/>bled us. The Wiſdom and Goodneſs of Di<g ref="char:EOLhyphen"/>vine
+<pb n="48" facs="tcp:65790:26"/>Providence is particularly to be adored by us, that what they meant and deſigned for a Terror to all, and ſo to quaſh the Diſco<g ref="char:EOLhyphen"/>very of This Curſed Plot, (the Murder I mean of his Majeſties Juſtice employed about Examinations,) hath been turned by God in<g ref="char:EOLhyphen"/>to the hopeful means of awakening others to enquire into it, and thereby to make known their moſt impious and deteſtable Villanies.</p>
+            <p>We are to praiſe God further, that he hath put it into the Heart of our Gracious Sovereign, upon this occaſion, to ſummon us all together jointly to Call upon God, who alone can ſave us, for his Bleſſing upon theſe ſinful and miſerable Kingdoms; and to fur<g ref="char:EOLhyphen"/>niſh us with ſo excellent a Form of Confeſſi<g ref="char:EOLhyphen"/>ons, Doxologies, Leſſons and Prayers for the preſent purpoſe. That he hath incli<g ref="char:EOLhyphen"/>ned his Heart, in This Juncture, to give all the aſſurance that can be had from a Reli<g ref="char:EOLhyphen"/>gious Prince to a Loyal People, of his Ma<g ref="char:EOLhyphen"/>jeſties Care and Zeal for the Proteſtant In<g ref="char:EOLhyphen"/>tereſt, and the Security of it, not only du<g ref="char:EOLhyphen"/>ring his own deſired and happy Reign, but under all that ſhall hereafter ſucceed him to the World's end.</p>
+            <pb n="49" facs="tcp:65790:26"/>
+            <p> And now it remains, that we ſtirre up and encourage our ſelves and one another to <hi>Call upon God for the Time to come,</hi> both for his merciful <hi>Protection</hi> of our Gracious Sove<g ref="char:EOLhyphen"/>reign, and in him of all his Loyal Subjects; and for his <hi>Direction</hi> and <hi>Bleſſing</hi> in order to the farther Diſcovery and defeating of all theſe curſed Projects: To <hi>ſeek unto God,</hi>
+               <note place="margin">Job 5.</note> 
+               <hi>and commit our Cauſe unto him, who doth great things and unſearchable, marvellous things without num<g ref="char:EOLhyphen"/>ber; who ſetteth upon high thoſe that be low, that they who mourn, may be exalted to ſafety.</hi>
+            </p>
+            <p>We have good <hi>Warrant</hi> and <hi>Example</hi> ſet before us, as you have heard, in Holy Scrip<g ref="char:EOLhyphen"/>ture for our Imitation. Such as That of <hi>Da<g ref="char:EOLhyphen"/>vid</hi> in the Text; and that of <hi>Nehemiah</hi> read in the Firſt Leſſon for this Morning Ser<g ref="char:EOLhyphen"/>vice.</p>
+            <p>And we have the awakening <hi>Motive</hi> of our great Perils and Dangers to ſpur us on to follow theſe excellent Preſidents. We have not only our own perſonal Intereſt lying wholly at ſtake, but That of our Families, nay, That of our Children's Children, and Poſterities in all Ages yet to come; That, I ſhould have ſaid in the Firſt place, of the Glory of God in the Continuance of the pro<g ref="char:EOLhyphen"/>feſſion
+<pb n="50" facs="tcp:65790:27"/>of True Religion among us, to urge us hereunto.</p>
+            <p>Let us therefore be excited, I beſeech you, with one conſent to put our Shoulders to the work, with all Humility and Reverence, Fer<g ref="char:EOLhyphen"/>vency and Earneſtneſs, Faith and Importu<g ref="char:EOLhyphen"/>nity to call upon God in the Name of his dear Son, that we periſh not; to call upon the Lord, who is worthy to be praiſed; who hath already done ſo great things for us, (wherein we rejoice, and for which we praiſe him:) That he would yet continue to be Merciful and Gracious unto us and to our Land: That He would ſhelter our moſt Re<g ref="char:EOLhyphen"/>ligious and Gracious King <hi>Charles</hi> under the wings of his Good Providence, and by the Guard of his Angels, from the bloody hands of <hi>Iſhmael,</hi>
+               <note place="margin">Jer. 41.</note> from the Sons of Violence, from the Approach of all manner of Evil: That he would manifeſt and bring to light the hidden works of Darkneſs, that They and Their Religion, and who are Abetters of them may be brought unto open ſhame and infamy: That He (who is never at a loſs for ways and methods of bringing his coun<g ref="char:EOLhyphen"/>ſel to paſs, and can make the moſt deſpiſed and contemptible means effectual to humble
+<pb n="51" facs="tcp:65790:27"/>the proud and mighty) would in This time of our need, perplexity and trouble ſtand up and appear for our Reſcue and Deliverance: That He would <hi>diſappoint the Devices of the Crafty,</hi>
+               <note place="margin">Job 5.</note> 
+               <hi>ſo that their hands may not be able to per<g ref="char:EOLhyphen"/>form their enterpriſe: That he would take the wiſe in their own Craftineſs, and carry the Counſel of the froward headlong:</hi>
+               <note place="margin">Pſal. 64.</note> That he would <hi>ſhoot at them with his arrows, and make their own Tongue to fall upon themſelves; ſo that all who ſee them, may fear, and declare the work of God, wiſely conſidering of his doing:</hi> That he would cauſe them to be enſnared in thoſe very Traps they have laid for others, and make them either the Executioners of their own Ruine, as he did the Seditious and Rebellious <hi>Abſa<g ref="char:EOLhyphen"/>lom,</hi> or bring them to the Gibbets,
+<note place="margin">2 Sam. 18.</note> deſigned by them for the Innocent, as he did the powerful and revengefull <hi>Haman:</hi> That,
+<note place="margin">Eſther 7.</note> as of his preventing Grace and Goodneſs he hath mercifully begun to Diſcover and make them to Fall, ſo he would vouchſafe to per<g ref="char:EOLhyphen"/>fect This work of Mercy to us, in their hearty Converſion and Repentance, if it may be, or in their utter Confuſion.</p>
+            <p>And, that we may <hi>ſucceed</hi> in theſe our Pray<g ref="char:EOLhyphen"/>ers unto God, let us, I beſeech you, Hum<g ref="char:EOLhyphen"/>ble
+<pb n="52" facs="tcp:65790:28"/>our ſelves deeply and ſincerely in his pre<g ref="char:EOLhyphen"/>ſence for all our former Sins, whereby we have provoked him to Anger and Diſpleaſure againſt us. Let us turn unto him with Faſt<g ref="char:EOLhyphen"/>ing, and Weeping and Supplication, turning from all our Tranſgreſſions, which we this Day make Confeſſion of; in particular our monſtrous Ingratitude unto God Almighty for all the Miracles of his Mercy and Goodneſs to<g ref="char:EOLhyphen"/>wards us: our ill Returns and Requitals of all his ſignal Benefits from time to time conferr'd upon us.</p>
+            <p>Unleſs we are thus <hi>truly Penitent</hi> for our Sins paſt, and reconcil'd to Gods Favour, we are not fit Mediators for our ſelves or others in this Trouble and Diſtreſs. Nay, inſtead of A<g ref="char:EOLhyphen"/>toning God Almighty, and procuring Mer<g ref="char:EOLhyphen"/>cy from him, we partake with the Enemy in bringing down his Curſe upon us, and the So<g ref="char:EOLhyphen"/>ciety whereof we are Members. They are therefore Rebels and Traitors, ſo farr, to their King and Country, who refuſe this Day to Humble themſelves under God's mighty Hand, and ſo to turn unto him, and to ſeek his Face; or, who allow themſelves in the Practice of that Wickedneſs, whereby they may farther provoke Heaven againſt us; or
+<pb n="53" facs="tcp:65790:28"/>who, <hi>Ahaz-like,</hi>
+               <note place="margin">2 Chron. 28.22.</note> 
+               <hi>In the time of this Diſtreſs Treſ<g ref="char:EOLhyphen"/>paſs yet more againſt the Lord.</hi>
+            </p>
+            <p>But if we Confeſs and Forſake our Sins, we are in the certain way to obtain Mercy; Mer<g ref="char:EOLhyphen"/>cy for our ſelves, and Mercy for the Land of our Nativity; Mercy for this preſent Generati<g ref="char:EOLhyphen"/>on, and Mercy for that which is to follow. We may then be admitted to call upon God with grounded hopes of his grace and favour towards us. We have then Encouragement to depend upon Him and expect a Bleſſing from Him, as the ſucceſs of this Days performance. For all things are naked and open to his All-ſeeing Eye, and none can dig ſo deep as to hide their Coun<g ref="char:EOLhyphen"/>ſels from him: and his Hand can reach them too, whereſoever they are; his Power is in<g ref="char:EOLhyphen"/>finite. He is never to ſeek for waies and means to blaſt and defeat the moſt Malitious, and Politick, and Secret, and Combined Machi<g ref="char:EOLhyphen"/>nations of any in order to our Deſtruction. Nay, we may confidently rely upon his <hi>Word of Promiſe</hi> for it, that He will Hear and An<g ref="char:EOLhyphen"/>ſwer us, and ſo we ſhall be ſafe from all our Enemies.</p>
+            <p>
+               <hi>Which God of his Infinite Mercy grant, for Chriſt his ſake,</hi> &amp;c. Amen.</p>
+            <trailer>THE END.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
